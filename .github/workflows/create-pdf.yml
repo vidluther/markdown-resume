@@ -12,11 +12,11 @@ jobs:
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
-          
-
+        
       - name: "Install wkhtmltopdf" 
-        uses: docker://pandoc/core:2.9
         run: "sudo apt-get -y install wkhtmltopdf"
+      - name: "Run pandoc"
+        uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
             --standalone
