@@ -6,7 +6,8 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
+      - name: Check out repository code
+        uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
       - uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
