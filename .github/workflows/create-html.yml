@@ -9,7 +9,10 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
       - name: "Create a folder called output"
-        run: "mkdir output"
+        run: |
+          mkdir output
+          cp resume-stylesheet.css output/resume-stylesheet.css
+          
       - uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
@@ -21,5 +24,5 @@ jobs:
             resume.md
       - uses: actions/upload-artifact@master
         with:
-          name: HTML File 
+          name: ${{ github.actor }} HTML Resume
           path: output
