@@ -23,7 +23,7 @@ jobs:
             --css=resume-stylesheet.css
             --from=markdown
             --to=pdf
-            --pdf-engine=wkhtmltopdf
+            --pdf-engine=/usr/bin/wkhtmltopdf
             resume.md
       - uses: actions/upload-artifact@master
         with:
