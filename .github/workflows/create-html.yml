@@ -1,0 +1,17 @@
+name: Create HTML Resume
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >- # allows you to break string into multiple lines
+            --standalone
+            --output=resume.html
+            --css=resume-stylesheet.css
+            --from=markdown
+            --to=html
+            resume.md
