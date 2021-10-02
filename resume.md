@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Richard Hendricks
+title: Jimmy Hendricks
 author: 'Dick Hendrix' 
 description: 'Resume of Richard Hendix, php developer extraordinaire'
 keywords: 'php, mysql, linux, ruby, python, devops'
