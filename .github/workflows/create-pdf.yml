@@ -8,13 +8,14 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
+      - name: Install wkhtmltopdf 
+        run: "sudo apt-get -y install wkhtmltopdf"
       - name: "Create a folder called output"
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
           
       - uses: docker://pandoc/core:2.9
-        run: "sudo apt-get -y install wkhtmltopdf"
         with:
           args: >- # allows you to break string into multiple lines
             --standalone
