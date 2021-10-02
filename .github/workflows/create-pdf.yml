@@ -14,18 +14,10 @@ jobs:
           cp resume-stylesheet.css output/resume-stylesheet.css
         
       - name: "Install wkhtmltopdf" 
-        run: "sudo apt-get -y install wkhtmltopdf"
+        run: "sudo apt-get -y install pandoc wkhtmltopdf"
       - name: "Run pandoc"
-        uses: docker://pandoc/core:2.9
-        with:
-          args: >- # allows you to break string into multiple lines
-            --standalone
-            --output=output/resume.pdf
-            --css=resume-stylesheet.css
-            --from=markdown
-            --to=pdf
-            --pdf-engine=/usr/bin/wkhtmltopdf
-            resume.md
+        run: |
+            /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
       - uses: actions/upload-artifact@master
         with:
           name: ${{ github.actor }} PDF File
