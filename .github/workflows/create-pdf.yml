@@ -9,7 +9,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2 # this checks out the repo in the ubuntu container
       - name: Install wkhtmltopdf 
-        run: "apt-get install wkhtmltopdf"
+        run: "sudo apt-get -y install wkhtmltopdf"
       - name: "Create a folder called output"
         run: |
           mkdir output
