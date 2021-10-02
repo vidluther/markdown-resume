@@ -23,5 +23,5 @@ jobs:
         #     /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
       - uses: actions/upload-artifact@master
         with:
-          name: ${{ github.actor }} PDF File
+          name: ${{ github.actor }}'s Resume
           path: output
