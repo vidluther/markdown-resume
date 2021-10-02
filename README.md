@@ -56,3 +56,7 @@ If you want to convert from HTML to PDF for some reason, you'll need to add a sw
 ```
 wkhtmltopdf --enable-local-file-access resume.html resume.pdf
 ```
+
+# TODO 
+
+I'm going to try and make it so that when you commit and push your changes Github, a [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file for you. 
