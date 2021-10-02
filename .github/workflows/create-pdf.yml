@@ -13,11 +13,14 @@ jobs:
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
         
-      - name: "Install wkhtmltopdf" 
+      - name: "Install pandoc and wkhtmltopdf" 
         run: "sudo apt-get -y install pandoc wkhtmltopdf"
-      - name: "Run pandoc"
-        run: |
-            /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
+      - name: "Convert MD to HTML"
+        run: "pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/resume.html"
+      - name: "Convert HTML to PDF "
+        run: "wkhtmltopdf --enable-local-file-access output/resume.html output/resume.pdf"
+        # run: |
+        #     /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
       - uses: actions/upload-artifact@master
         with:
           name: ${{ github.actor }} PDF File
