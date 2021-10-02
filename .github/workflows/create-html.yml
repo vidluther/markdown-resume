@@ -1,4 +1,4 @@
-name: Create HTML Resume
+name: Create HTML File
 
 on: push
 
@@ -12,7 +12,7 @@ jobs:
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
-          
+
       - uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
