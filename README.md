@@ -58,5 +58,5 @@ wkhtmltopdf --enable-local-file-access resume.html resume.pdf
 ```
 
 # TODO 
-
-I'm going to try and make it so that when you commit and push your changes Github, a [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file for you. 
+ - a [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file automatically. 
+ - set the Author field in the PDF, it seems to not work when the pdf-engine is set to wkhtmltopdf 
