@@ -12,13 +12,21 @@ jobs:
         run: |
           mkdir output
           cp resume-stylesheet.css output/resume-stylesheet.css
-        
+      # Downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.    
       - name: "Install pandoc and wkhtmltopdf" 
-        run: "sudo apt-get -y install pandoc wkhtmltopdf"
-      - name: "Convert MD to HTML"
-        run: "pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/resume.html"
-      - name: "Convert HTML to PDF "
-        run: "wkhtmltopdf --enable-local-file-access output/resume.html output/resume.pdf"
+        run: |
+        wget https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1-amd64.deb
+        wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
+        dpkg -i pandoc-2.14.2-1-amd64.deb
+        dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+
+      - name: "Convert MD to HTML and PDF "
+        run: |
+          pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/resume.html
+          pandoc resume.md -f markdown -t pdf --pdf-engine=/usr/bin/wkhtmltopdf -c resume-stylesheet.css -s -o output/resume.pdf
+
+      # - name: "Convert HTML to PDF "
+      #   run: wkhtmltopdf --enable-local-file-access output/resume.html output/resume.pdf"
         # run: |
         #     /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
       - uses: actions/upload-artifact@master
