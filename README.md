@@ -58,5 +58,6 @@ wkhtmltopdf --enable-local-file-access resume.html resume.pdf
 ```
 
 # TODO 
- - a [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file automatically. 
+ - [x] [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file automatically. 
  - set the Author field in the PDF, it seems to not work when the pdf-engine is set to wkhtmltopdf 
+ - [] make a release or a package? 
