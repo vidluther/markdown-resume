@@ -17,8 +17,8 @@ jobs:
         run: |
           wget https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1-amd64.deb
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
-          dpkg -i pandoc-2.14.2-1-amd64.deb
-          dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+          sudo dpkg -i pandoc-2.14.2-1-amd64.deb
+          sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
 
       - name: "Convert MD to HTML and PDF "
         run: |
