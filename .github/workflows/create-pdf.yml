@@ -28,7 +28,7 @@ jobs:
           pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{github.actor}}-resume.html
 
       - name: "Convert HTML to PDF "
-        run: "wkhtmltopdf --enable-local-file-access output/resume.html output/${{github.actor}}-resume.pdf"
+        run: "wkhtmltopdf --enable-local-file-access output/${{github.actor}}-resume.html output/${{github.actor}}-resume.pdf"
       # run: |
       #     /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
       - uses: actions/upload-artifact@master
