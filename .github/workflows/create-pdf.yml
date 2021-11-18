@@ -1,6 +1,6 @@
 name: Create PDF File
 
-on: push
+on: [push]
 
 jobs:
   convert_via_pandoc:
