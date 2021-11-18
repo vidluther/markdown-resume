@@ -3,15 +3,15 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Jimmy Hendricks
-description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
+title: Molin Liu
+description-meta: 'Passion, Enterprise, Self-motivated'
 keywords: 
-  - 'php' 
-  - 'mysql' 
-  - 'linux'
+  - 'C++' 
+  - 'Python' 
+  - 'Machine Learning'
 author-meta: 'This will show up as <meta name"author"... in HTML meta tags:'
 ---
-###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
+###### [[example.com](https://example.com)] . [ molinliu@live.com] . [ +86-15626279155 ]
 ### This is where you have your statement, that describes who you are and what you're looking for. Hopefully it's not cliche and it stands out in a good way.  
 
 ## Skills
