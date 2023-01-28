@@ -9,7 +9,9 @@ keywords:
   - 'php'
   - 'mysql'
   - 'linux'
-author-meta: 'This will show up as <meta name"author"... in HTML meta tags:'
+author:
+- I am the author
+subject: 'Subject'
 ---
 ###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
 
