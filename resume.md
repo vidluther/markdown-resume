@@ -3,7 +3,7 @@ margin-left: 2cm
 margin-right: 2cm
 margin-top: 1cm
 margin-bottom: 2cm
-title: Your Resume in Markdown
+title: Vasilis Giagkoulas
 description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
 keywords:
   - 'php'
@@ -41,7 +41,7 @@ This will be a short introduction of myself
 
 ## Experience
 
-### Decarbonization Data Science Manager, Shell
+### __Decarbonization Data Science Manager__ | Shell
 
 Jan 2020 - present, Amsterdam, the Netherlands
 
@@ -50,7 +50,7 @@ Jan 2020 - present, Amsterdam, the Netherlands
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### Senior Data Scientist, Shell
+### Senior Data Scientist | Shell
 
 Apr 2017 - Jan 2020, Rijswijk, the Netherlands
 
@@ -59,7 +59,7 @@ Apr 2017 - Jan 2020, Rijswijk, the Netherlands
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### HR Analytics Analyst, Shell
+### HR Analytics Analyst | Shell
 
 Dec 2014 - Apr 2017, the Hague, the Netherlands
 
@@ -68,7 +68,7 @@ Dec 2014 - Apr 2017, the Hague, the Netherlands
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### Energy Leader, Philip Morris Holland
+### Energy Leader | Philip Morris Holland
 
 Jan 2013 - Sept 2014, Bergen op Zoom, the Netherlands
 
@@ -77,7 +77,7 @@ Jan 2013 - Sept 2014, Bergen op Zoom, the Netherlands
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### Research and Product Consultant, Integration-IMC
+### Research and Product Consultant | Integration-IMC
 
 Apr 2012 - Jan 2013, Nicosia, Cyprus
 
@@ -86,7 +86,7 @@ Apr 2012 - Jan 2013, Nicosia, Cyprus
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### Analytics Consultant, Pointlogic - a Nielsen Company
+### Analytics Consultant | Pointlogic - a Nielsen Company
 
 Apr 2011 - Apr 2012, Rotterdam, the Netherlands
 
