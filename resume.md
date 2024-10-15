@@ -13,7 +13,7 @@ author:
 - I am the author
 subject: 'Subject'
 ---
-###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
+###### [[Linkedin](https://linkedin.com.vgiagkoulas)] . [ me@example.com] . [ 123 456 7890 ]
 
 ### This is where you have your statement, that describes who you are and what you're looking for. Hopefully it's not cliche and it stands out in a good way
 
@@ -36,20 +36,68 @@ subject: 'Subject'
 **Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
 **DevOps**: Ansible, Chef, Kubernetes, etc.
 
+## Introduction
+This will be a short introduction of myself
+
 ## Experience
 
-### CEO and Founder, Pied Piper
+### Decarbonization Data Science Manager, Shell
 
-start-date-end-date, City, State and remote
+Jan 2020 - present, Amsterdam, the Netherlands
 
 - Things you did/do here
 - More things that you do here.
 
 **Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
-### Senior Software Architect, Hooli
+### Senior Data Scientist, Shell
 
-2010-2016, San Francisco, CA
+Apr 2017 - Jan 2020, Rijswijk, the Netherlands
+
+- This is the job you had before your latest job
+- Did you do anything that wasn't part of your job description, but you excelled at?
+
+**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+
+### HR Analytics Analyst, Shell
+
+Dec 2014 - Apr 2017, the Hague, the Netherlands
+
+- This is the job you had before your latest job
+- Did you do anything that wasn't part of your job description, but you excelled at?
+
+**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+
+### Energy Leader, Philip Morris Holland
+
+Jan 2013 - Sept 2014, Bergen op Zoom, the Netherlands
+
+- This is the job you had before your latest job
+- Did you do anything that wasn't part of your job description, but you excelled at?
+
+**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+
+### Research and Product Consultant, Integration-IMC
+
+Apr 2012 - Jan 2013, Nicosia, Cyprus
+
+- This is the job you had before your latest job
+- Did you do anything that wasn't part of your job description, but you excelled at?
+
+**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+
+### Analytics Consultant, Pointlogic - a Nielsen Company
+
+Apr 2011 - Apr 2012, Rotterdam, the Netherlands
+
+- This is the job you had before your latest job
+- Did you do anything that wasn't part of your job description, but you excelled at?
+
+**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
+
+### Trainee Engineer, Consolidated Contractors Company
+
+Jun 2009 - Aug 2009, Ras Laffan, Qatar
 
 - This is the job you had before your latest job
 - Did you do anything that wasn't part of your job description, but you excelled at?
