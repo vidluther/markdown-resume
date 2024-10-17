@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - baseline
 
 jobs:
   convert_via_pandoc:
