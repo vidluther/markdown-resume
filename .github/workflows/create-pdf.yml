@@ -51,7 +51,7 @@ jobs:
     - name: Stage
       run: |
         mkdir public
-        cp out/${{ github.actor }}-resume.html public/index.html
+        cp output/${{ github.actor }}-resume.html public/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
