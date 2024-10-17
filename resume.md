@@ -9,6 +9,7 @@ keywords:
   - 'data science'
   - 'machine learning'
   - 'artificial intelligence'
+  - 'digital innovation'
   - 'leadership'
 author:
 - I am the author
@@ -20,9 +21,10 @@ subject: 'Subject'
 ### Solving real-world problems using Machine Learning and Artificial Intelligence
 
 ## Introduction
-This will be a short introduction of myself
+Data Science leader with diverse international experience in data science, predictive analytics and machine learning. 
+Currently leading the Data Science for Decarbonization team at Shell, driving digital innovation through the application of the latest ML and AI methodologies to propel Energy Transition and help shape the new Energy future.
 
-## Experience
+## Professional Experience
 
 ### Decarbonization Data Science Manager | Shell
 
@@ -45,8 +47,6 @@ R&ES Innovation Funding
 Acted as the Program Unit lead for the R&ES Innovation funding (>$10m/year in 2022 and 2023), coordinating all digital innovation activities for R&ES business. 
 - Established standardized reporting to provide visibility across different organizations.
 - Built up the yearly budget, established structure to funding management and reporting and created the necessary governance.
-
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
 
 ### Lead Data Scientist | Shell
 Nov 2018 - Jan 2020, Rotterdam, the Netherlands
@@ -108,9 +108,9 @@ Apr 2011 - Apr 2012, Rotterdam, the Netherlands
 - Conducted research as part of my master thesis project on optimizing the marketing budget allocation problem. 
 - Developed optimization techniques and heuristics for Mixed Integer Nonlinear Problems to be applied in the Integrated Marketing Communications software suite.
 - Created VBA based tools for simplifying data testing, processing and presentation. 
- Tested and validated new software versions before final release.
+- Tested and validated new software versions before final release.
 
-
+### Engineering Trainee | Consolidated Contractors Company
 Jun 2009 - Aug 2009, Ras Laffan, Qatar
 
 - Toyota-Technip JV
@@ -126,32 +126,16 @@ Jun 2009 - Aug 2009, Ras Laffan, Qatar
 
 ## Education
 
-### MSc in Econometrics and Management Science, Erasmus University Rotterdam
+### Erasmus University School of Economics, Rotterdam, the Netherlands
+_MSc. Econometrics and Management Science-Operations Research & Quantitative Logistics_
 
-2010 - 2011
+Sept 2010 - Sept 2011
+- Thesis: Reducing the length of stay in the Emergency Department using simulation methods. 
+- Activities and societies: Econometrisch Dispuut
 
-- Activities and societies: Econometrisch DispuutActivities and societies: Econometrisch Dispuut
-Focused on the those areas in the transport and logistics sector that require strong quantitative skills as well as in Operational Research, as a dicipline of applying advanced quantitative methods.
+### Aristotle University Engineering School, Thessaloniki, Greece
+_BEng. Mechanical Engineering, MEng. Industrial Management_
 
-So that not only did I gain a deeper insight in existing quantitative techniques but i also became capable of modeling and solving complex real-world transportation problems.
-
-The curriculum included, among others, the following courses and seminars:
-Stochastic Models and Optimisation
-Advanced Mathematical Programming
-Advanced Inventory Control and Supply Chain Management
-Topics in OR and Logistics
-Logistic Case Studies
-
-### MEng in Industrial Management, Aristotle University of Thessaloniki
-- 4.0 GPA
-- Deans List
-- Member of xyz club, etc.
-- I didn't really go to college so I don't know what you would put here.
-
-### BEng in Mechanical Engineering, Aqqccqqcqqstotle University of Thessaloniki
-
-2004 - 2009
-
-As a mechanical engineer,i have devoted the first three years of my study in obtaining the basic knowledge an engineer ought to have.
-During the last two years, i attended the industrial engineering branch of study,concetrating on Statistical Quality Control,Production and Operations Research as well as on Logistics, Supply Chain Management, Realibility and Maintenance and Simulation.
- The title of my dissertation thesis was &quot;The study of the waiting line in the Emergency Department of General Papageoriou Hospital using simulation software&quot;
+Sept 2004 - Nov 2009
+- Thesis: Reducing the length of stay in the Emergency Department using simulation methods. 
+- Activities: The ATHENS program - Negotiations course at École Nationale des Ponts et Chaussées in Paris, France 
