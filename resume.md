@@ -128,10 +128,19 @@ Jun 2009 - Aug 2009, Ras Laffan, Qatar
 
 ### MSc in Econometrics and Management Science, Erasmus University Rotterdam
 
-- 4.0 GPA
-- Deans List
-- Member of xyz club, etc.
-- I didn't really go to college so I don't know what you would put here.
+2010 - 2011
+
+- Activities and societies: Econometrisch DispuutActivities and societies: Econometrisch Dispuut
+Focused on the those areas in the transport and logistics sector that require strong quantitative skills as well as in Operational Research, as a dicipline of applying advanced quantitative methods.
+
+So that not only did I gain a deeper insight in existing quantitative techniques but i also became capable of modeling and solving complex real-world transportation problems.
+
+The curriculum included, among others, the following courses and seminars:
+Stochastic Models and Optimisation
+Advanced Mathematical Programming
+Advanced Inventory Control and Supply Chain Management
+Topics in OR and Logistics
+Logistic Case Studies
 
 ### MEng in Industrial Management, Aristotle University of Thessaloniki
 - 4.0 GPA
@@ -139,9 +148,10 @@ Jun 2009 - Aug 2009, Ras Laffan, Qatar
 - Member of xyz club, etc.
 - I didn't really go to college so I don't know what you would put here.
 
-### BEng in Mechanical Engineering, Aristotle University of Thessaloniki
+### BEng in Mechanical Engineering, Aqqccqqcqqstotle University of Thessaloniki
 
-- 4.0 GPA
-- Deans List
-- Member of xyz club, etc.
-- I didn't really go to college so I don't know what you would put here.
+2004 - 2009
+
+As a mechanical engineer,i have devoted the first three years of my study in obtaining the basic knowledge an engineer ought to have.
+During the last two years, i attended the industrial engineering branch of study,concetrating on Statistical Quality Control,Production and Operations Research as well as on Logistics, Supply Chain Management, Realibility and Maintenance and Simulation.
+ The title of my dissertation thesis was &quot;The study of the waiting line in the Emergency Department of General Papageoriou Hospital using simulation software&quot;
