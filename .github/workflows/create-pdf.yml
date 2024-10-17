@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v3 # this checks out the repo in the ubuntu container
+        uses: actions/checkout@v4 # this checks out the repo in the ubuntu container
       - name: "Create a folder called output"
         run: |
           mkdir output
@@ -33,7 +33,40 @@ jobs:
         run: "wkhtmltopdf --enable-local-file-access output/${{github.actor}}-resume.html output/${{github.actor}}-resume.pdf"
       # run: |
       #     /usr/bin/pandoc -standalone --output=output/resume.pdf --css=resume-stylesheet.css --from=markdown --to=pdf --pdf-engine=/usr/bin/wkhtmltopdf resume.md
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v4
         with: # basically this will put resume.md, resume.html, resume.pdf and resume-stylesheet.css in a zip file.
           name: ${{ github.actor }}'s Resume
           path: output
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: convert_via_pandoc
+    steps:
+    - uses: actions/checkout@v4
+    - name: Retrieve Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ github.actor }}'s Resume
+        path: output
+    - name: Stage
+      run: |
+        mkdir public
+        cp out/${{ github.actor }}_resume.html public/index.html
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+    - name: Set Tag
+      id: current-datetime
+      run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d-%H_%M_%S%z')" >> "$GITHUB_OUTPUT"
+    - name: Build Release
+      shell: bash
+      run: |
+        hub release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
+        -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
+        -a out/${{ github.actor }}_resume.html \
+        -a out/${{ github.actor }}_resume.md \
+        -a out/${{ github.actor }}_resume.pdf
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
