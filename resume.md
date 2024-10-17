@@ -15,7 +15,6 @@ author:
 - I am the author
 subject: 'Subject'
 ---
-# Vasilis Giagkoulas
 ###### [[Linkedin](https://linkedin.com.vgiagkoulas)] . [ vgiagkou@gmail.com] . [ +31 6 83798378 ]
 
 ### Solving real-world problems using Machine Learning and Artificial Intelligence
