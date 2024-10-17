@@ -65,8 +65,8 @@ jobs:
       run: |
         hub release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
-        -a out/${{ github.actor }}_resume.html \
-        -a out/${{ github.actor }}_resume.md \
-        -a out/${{ github.actor }}_resume.pdf
+        -a output/${{ github.actor }}-resume.html \
+        -a output/${{ github.actor }}-resume.md \
+        -a output/${{ github.actor }}-resume.pdf
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
