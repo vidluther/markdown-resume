@@ -25,8 +25,8 @@ jobs:
           sudo apt install ./pandoc-3.0.1-1-amd64.deb
           sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
-      - name: Install hub
-        uses: geertvdc/setup-hub@master
+      - uses: actions/checkout@v4
+      - uses: geertvdc/setup-hub@master
 
 
       - name: "Convert MD to HTML"
