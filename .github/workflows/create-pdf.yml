@@ -25,6 +25,10 @@ jobs:
           sudo apt install ./pandoc-3.0.1-1-amd64.deb
           sudo apt install ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
+      - name: Install hub
+        uses: geertvdc/setup-hub@master
+
+
       - name: "Convert MD to HTML"
         run: |
           pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{github.actor}}-resume.html
@@ -39,7 +43,7 @@ jobs:
           path: output
 
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: convert_via_pandoc
     steps:
     - uses: actions/checkout@v4
