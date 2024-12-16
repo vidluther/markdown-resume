@@ -15,7 +15,7 @@ author:
 - I am the author
 subject: 'Subject'
 ---
-###### [[Linkedin](https://linkedin.com/vgiagkoulas)] . [ vgiagkou@gmail.com] . [ +31 6 83798378 ]
+###### [[Linkedin](https://linkedin.com/in/vgiagkoulas)] . [ vgiagkou@gmail.com] . [ +31 6 83798378 ]
 
 ### Solving real-world problems using Machine Learning and Artificial Intelligence
 
@@ -25,7 +25,7 @@ Currently leading the Data Science for Decarbonization team at Shell, driving di
 
 ## Professional Experience
 
-### Decarbonization Data Science Manager | Shell
+### Decarbonization Data Science Manager | *Shell*
 
 Jan 2020 - present, Amsterdam, the Netherlands
 
@@ -47,7 +47,7 @@ Acted as the Program Unit lead for the R&ES Innovation funding (>$10m/year in 20
 - Established standardized reporting to provide visibility across different organizations.
 - Built up the yearly budget, established structure to funding management and reporting and created the necessary governance.
 
-### Lead Data Scientist | Shell
+### Lead Data Scientist | *Shell*
 Nov 2018 - Jan 2020, Rotterdam, the Netherlands
 
 Led the first embedded Data Science team at Pernis Refinery in Rotterdam consisting of two junior Data Scientists (2 FTE).
@@ -58,13 +58,13 @@ Achieved:
 - Contributed to the Scale & Replicate program for the Shell Predictive Maintenance solution, applying the algorithm to other types of equipment and machinery i.e. pumps, compressors etc 
 - Grew the digital capabilities of the local staff at the asset through unofficial learning sessions, open-door hours(digiDays), lunch & learn presentations and bootcamps/hackathons
 
-### Senior Data Scientist | Shell
+### Senior Data Scientist | *Shell*
 
 Apr 2017 - Nov 2018, Rijswijk, the Netherlands
 
 Developing machine learning applications for energy demand forecasting and renewable energies, currently focusing on Smart Charge algorithms for Electric Vehicles. Focusing on delivering solutions and insights, contributing to senior decision making and driving digital innovation in Shell.
 
-### HR Analytics Analyst | Shell
+### HR Analytics Analyst | *Shell*
 
 Dec 2014 - Apr 2017, the Hague, the Netherlands
 
@@ -72,7 +72,7 @@ Dec 2014 - Apr 2017, the Hague, the Netherlands
 - Identifying people-related opportunities and translating business requirements into projects.
 - Developing analytical methodologies by combining Human and Business data in order to bring a quantitative perspective to HR related topics.
 
-### Energy Leader | Philip Morris Holland
+### Energy Leader | *Philip Morris Holland*
 
 Jan 2013 - Sept 2014, Bergen op Zoom, the Netherlands
 
@@ -89,7 +89,7 @@ Results:
 - Physical relocation of the reworks machinery, equipment and activities closer to the production area.
 - New production unit/mini company (reworking and de-packing activities), organizationally integrated to the manufacturing department.
 
-### Research and Product Consultant | Integration-IMC
+### Research and Product Consultant | *Integration-IMC*
 
 Apr 2012 - Jan 2013, Nicosia, Cyprus
 
@@ -97,7 +97,7 @@ Apr 2012 - Jan 2013, Nicosia, Cyprus
 - Validated the methodology for categorizing marketing contacts according to their unduplicated influence based on available market research databases. 
 - Restructured and standardized the marketing databases using unique typology and classification, enabling comparative statistics and insights analysis and applying a normative checks procedure.
 
-### Analytics Consultant | Pointlogic - a Nielsen Company
+### Analytics Consultant | *Pointlogic - a Nielsen Company*
 
 Apr 2011 - Apr 2012, Rotterdam, the Netherlands
 
@@ -109,7 +109,7 @@ Apr 2011 - Apr 2012, Rotterdam, the Netherlands
 - Created VBA based tools for simplifying data testing, processing and presentation. 
 - Tested and validated new software versions before final release.
 
-### Engineering Trainee | Consolidated Contractors Company
+### Engineering Trainee | *Consolidated Contractors Company*
 Jun 2009 - Aug 2009, Ras Laffan, Qatar
 
 - Toyota-Technip JV
@@ -126,14 +126,14 @@ Jun 2009 - Aug 2009, Ras Laffan, Qatar
 ## Education
 
 ### Erasmus University School of Economics, Rotterdam, the Netherlands
-_MSc. Econometrics and Management Science-Operations Research & Quantitative Logistics_
+*MSc. Econometrics and Management Science-Operations Research & Quantitative Logistics*
 
 Sept 2010 - Sept 2011
 - Thesis: Reducing the length of stay in the Emergency Department using simulation methods. 
 - Activities and societies: Econometrisch Dispuut
 
 ### Aristotle University Engineering School, Thessaloniki, Greece
-_BEng. Mechanical Engineering, MEng. Industrial Management_
+*BEng. Mechanical Engineering, MEng. Industrial Management*
 
 Sept 2004 - Nov 2009
 - Thesis: Reducing the length of stay in the Emergency Department using simulation methods. 
