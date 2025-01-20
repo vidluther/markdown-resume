@@ -39,7 +39,7 @@ jobs:
     - name: Retrieve Artifacts
       uses: actions/download-artifact@v4
       with:
-        name: ${{ github.actor }}'s Resume
+        name: ${{ github.actor }}-resume
         path: output
     - name: Stage
       run: |
