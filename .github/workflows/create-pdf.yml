@@ -1,6 +1,7 @@
 name: Create PDF File
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - baseline
