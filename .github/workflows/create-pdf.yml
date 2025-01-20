@@ -40,11 +40,11 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: ${{ github.actor }}-resume
-        path: output
+        path: out
     - name: Stage
       run: |
         mkdir public
-        cp output/${{ github.actor }}-resume.html public/index.html
+        cp out/${{ github.actor }}-resume.html public/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
@@ -58,8 +58,8 @@ jobs:
       run: |
         hub release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
-        -a output/${{ github.actor }}-resume.html \
-        -a output/${{ github.actor }}-resume.md \
-        -a output/${{ github.actor }}-resume.pdf
+        -a out/${{ github.actor }}-resume.html \
+        -a out/${{ github.actor }}-resume.md \
+        -a out/${{ github.actor }}-resume.pdf
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
